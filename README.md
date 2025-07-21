@@ -24,7 +24,6 @@ A full end-to-end NLP project that analyzes and predicts MBTI (Myers-Briggs Type
 | **Exploratory Analysis** | Top keywords per type, sentiment by MBTI, WordClouds |
 | **Clustering** | KMeans and graph-based clustering using cosine similarity |
 | **Modeling** | Naive Bayes, Logistic Regression, and binary trait classifiers (IE, NS, FT, PJ) |
-| **Deployment** | FastAPI endpoint (`/predict`) with pickled model and vectorizer |
 
 ---
 
@@ -56,8 +55,20 @@ Binary classification improves balance and interpretability.
 - Behavioral clusters via PCA and Truncated SVD
 
 ---
+## License
 
-## API Usage (FastAPI)
+MIT License. See LICENSE file for details.
+___
+
+## Contact
+
+- Created by Suchada W.
+- Email: suchadawongkot1@gmail.com
+- GitHub: zin-w
+
+Feel free to fork, raise issues, or submit pull requests!
+
+___
 
 ### Endpoint:
 ```bash
